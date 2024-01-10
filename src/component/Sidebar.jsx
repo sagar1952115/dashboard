@@ -12,7 +12,7 @@ function Profile() {
         </button>
       </div>
       <img
-        src="/assets/ChevronDown.svg"
+        src="/assets/chevrondown.svg"
         className="cursor-pointer h-[20px] w-[20px]"
       />
     </div>

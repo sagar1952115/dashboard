@@ -3,7 +3,7 @@ import TransactionContainer from "./TransactionContainer";
 
 const Container = () => {
   return (
-    <div className="flex m-[32px] flex-col gap-[32px]">
+    <div className=" flex m-[32px] flex-col gap-[32px]">
       <Overview />
       <TransactionContainer />
     </div>

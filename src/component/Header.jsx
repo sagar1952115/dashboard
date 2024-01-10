@@ -38,7 +38,7 @@ function Search() {
 
 const Header = () => {
   return (
-    <header className="flex w-full bg-white h-16 px-[32px] py-[12px] border-b-[1px] border-solid border-[#D9D9D9] items-center gap-[16px]">
+    <header className="flex bg-white h-16 px-[32px] py-[12px] border-b-[1px] border-solid border-[#D9D9D9] items-center gap-[16px]">
       <div className="flex gap-[16px] w-1/3 items-center">
         <p className="flex items-center h-[22px] text-[#1A181E] text-[15px] font-[400px]">
           Payments

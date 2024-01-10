@@ -83,7 +83,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="flex relative top-0 bottom-0 flex-col gap-[16px] flex-grow-1 flex-shrink-0 flex-basis-0 bg-[#1E2640] w-[224px] px-[16px] py-[10px] items-center text-[#FFFFFF]">
+    <div className="flex min-h-screen flex-col gap-[16px] flex-grow-1 flex-shrink-0 flex-basis-0 bg-[#1E2640] w-[224px] px-[16px] py-[10px] items-center text-[#FFFFFF]">
       <div className="flex  flex-col h-full  gap-[24px] w-[208px]">
         <Profile />
         <div className="flex flex-col justify-between h-full">

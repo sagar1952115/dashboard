@@ -28,7 +28,7 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div className="flex flex-col gap-[24px]">
+    <div className="w-full flex flex-col gap-[24px]">
       <header>
         <div className="flex items-center justify-between">
           <p className="flex items-center text-[#1A181E] text-[20px] font-[500px] h-[28px]">

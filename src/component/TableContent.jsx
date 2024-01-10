@@ -8,12 +8,12 @@ const rows = Array(20).fill({
 const TableContent = () => {
   return (
     <table>
-      <thead className="">
-        <tr className="flex w-full bg-[#F2F2F2] h-[40px] py-[10px] justify-around rounded-[4px]">
-          <td className="flex items-center text-[14px] font-[500px] w-[246px]">
+      <thead>
+        <tr className="flex gap-[40px] bg-[#F2F2F2] h-[40px] px-[12px] py-[10px] justify-center rounded-[4px]">
+          <td className="w-[25%] justify-start flex items-center text-[14px] font-[500px] ">
             Order ID
           </td>
-          <td className="cursor-pointer flex items-center text-[14px] font-[500px]  h-[20px] gap-1">
+          <td className="w-[25%] justify-center cursor-pointer flex items-center text-[14px] font-[500px]  h-[20px] gap-1">
             <p>Order date</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,10 +28,10 @@ const TableContent = () => {
               />
             </svg>
           </td>
-          <td className="flex items-center justify-end text-[14px] font-[500px] w-[246px] h-[20px]">
+          <td className="w-[25%] justify-center flex items-center text-[14px] font-[500px]  h-[20px]">
             Order amount
           </td>
-          <td className="cursor-pointer flex items-center justify-end text-[14px] font-[500px] w-[246px] h-[20px] gap-1">
+          <td className="w-[25%] justify-end cursor-pointer flex items-center  text-[14px] font-[500px]  h-[20px] gap-1">
             <p>Transaction Fees</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,17 +73,17 @@ const TableContent = () => {
         {rows.map((row, idx) => {
           return (
             <div key={idx} className="border ">
-              <tr className="flex gap-[40px] px-[12px] py-[14px] justify-between">
-                <td className="flex  items-center text-[14px] font-[500px] h-[20px] text-[#146EB4] hover:underline cursor-pointer">
+              <tr className="flex  px-[12px] py-[14px] justify-between">
+                <td className="w-[25%] justify-start flex  items-center text-[14px] font-[500px] h-[20px] text-[#146EB4] hover:underline cursor-pointer">
                   {row.id}
                 </td>
-                <td className="flex  items-center text-[14px] font-[500px] h-[20px] text-[#1A181E]">
+                <td className="w-[25%] justify-center flex  items-center text-[14px] font-[500px] h-[20px] text-[#1A181E]">
                   {row.date}
                 </td>
-                <td className="flex items-center justify-end text-[14px] font-[500px] h-[20px] text-[#1A181E]">
+                <td className="w-[25%] justify-center flex items-center  text-[14px] font-[500px] h-[20px] text-[#1A181E]">
                   {row.amnt}
                 </td>
-                <td className="flex  items-center justify-end text-[14px] font-[500px] h-[20px] text-[#1A181E]">
+                <td className="w-[25%] justify-end flex  items-center  text-[14px] font-[500px] h-[20px] text-[#1A181E]">
                   {row.fees}
                 </td>
               </tr>
